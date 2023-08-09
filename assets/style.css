@@ -1,0 +1,318 @@
+@import url('reset.css');
+
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 50;
+    
+}
+#interact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 67%;
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 105px;
+}
+#interact p{
+    font-size: small;
+}
+#texto{
+    width: 67%;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: #f5f5f5;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: medium;
+    letter-spacing: -0.3px;
+    font-size: 92%;
+}
+#texto p{
+    margin-bottom: 3px;
+}
+#comentarios{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 67%;
+    margin-left: 100px; 
+    
+    
+}
+#comentario-linha{
+    display: flex;
+    align-items: center;
+    width: 67%;
+    margin-top: 10px;
+    margin-left: 105px;  
+}
+#comentario-linha .pic2{
+    width: 45px;
+    margin-right: 10px;
+}
+#comentario-linha div {
+    margin-left: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#corpo{
+    margin-top: 0;
+    background-color: #fff;
+    
+}
+#video{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 105px;
+}
+#aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    position: absolute;
+    margin-top: 80px;
+    margin-right: 110px;
+    top: 0;
+    right: 0;
+}
+#itens-end{
+    margin-left: 25px;
+}
+#order{
+    margin-left: 15px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-right: 17px;
+    padding-top: 2px;
+}
+h3{
+    padding-top: 15px;
+    padding-left: 105px;
+    margin-bottom: 5px;
+}
+h5{
+    display: inline-block;
+
+}
+h4{
+    cursor: pointer;
+}
+h6{
+    display: inline-block;
+    margin-left: -12px;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+.menu-item1{  
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 375px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.menu-item1 svg{
+    margin-right: 5px;
+}
+.pic {
+    width: 125px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.pic2{
+    width: 33px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.pic3{
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+span h5{
+    cursor: pointer;
+}
+
+.menu-item-lupa{
+    display: inline-block;
+    width: 65px;
+    height: 40px;
+    background: #f5f5f5;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid #CCCCCC;
+    position: absolute;   
+}
+.menu-item-lupa:hover{
+    background: #e4e1e1;
+    cursor: pointer;
+}
+.menu-item2{
+    display: inline-block;
+    width: 540px;
+    margin-left: -15px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    position: relative;
+    cursor: text;
+}
+.text{
+    margin-top: 9px;
+    display: inline-block;
+    margin-left: 5px;
+    padding-left: 13px;
+    color: #777676;
+    text-decoration: none;
+}
+.text1{
+    display: inline-block;
+    color: #616060;
+    text-decoration: none;
+}
+.card-text p{
+    color: #616060;
+}
+.board{
+    display: flex;
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    cursor: pointer;
+}
+.lupa{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+.absolute{
+    display: flex;
+    position: relative;
+    right: 182px;
+}
+.mic{
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.mic:hover{
+    background-color: #f5f5f5;
+}
+
+.menu-item3{
+    
+    width: 160px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: -10px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.interact{
+    display: flex;
+    flex-direction: row;
+   
+}
+.interact-item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.interact-item:hover{
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+}
+.margem{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.video-lateral{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 395px;
+    height: 120px;
+    margin-bottom: -17px;
+}
+.video-lateral .text2{
+    font-size: small;
+}
+.img-radius{
+    display: flex;
+    width: 170px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-text{
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 94%;
+}
+
+.itens-hover:hover{
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color:  #f5f5f5;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    
+}
+    
+@media (max-width: 1169px) {
+    #aside{
+        display: none;
+    }
+    #mic{
+        display: none;
+    }
+}
